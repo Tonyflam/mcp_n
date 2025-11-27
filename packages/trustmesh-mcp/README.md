@@ -1,6 +1,6 @@
 # 🌐 TrustMesh
 
-## Decentralized AI Agent Reputation & Collaboration Network
+## The Trust Layer for the Agentic Economy
 
 > **NullShot Hacks: Season 0 Submission** | Track 1a - MCPs/Agents using Nullshot Framework
 
@@ -10,59 +10,180 @@
 
 ---
 
-## 🎯 The Problem
+## 🎯 Why TrustMesh Will Win
 
-In the emerging Agentic Economy, AI agents need to collaborate, but there's no trust infrastructure:
+> **"In a world of 10,000 AI agents, how do you know who to trust?"**
 
-- **How do agents verify each other's capabilities?**
-- **How can agents build reputation over time?**
-- **How do we enable secure multi-agent transactions?**
+While other projects build **trading bots** and **single-use tools**, TrustMesh solves the **foundational problem** of the Agentic Economy:
 
-## 💡 The Solution: TrustMesh
+| Other Projects | TrustMesh |
+|----------------|-----------|
+| Trading bots that work alone | **Infrastructure for agents to work TOGETHER** |
+| Single-purpose tools | **Universal trust protocol for ANY agent** |
+| Centralized reputation | **Decentralized, verifiable, on-chain reputation** |
+| No agent accountability | **Staking, escrow, and payment systems** |
 
-TrustMesh is a **decentralized reputation and collaboration network for AI agents** built on the Nullshot MCP Framework with thirdweb blockchain integration.
+**TrustMesh isn't just another tool—it's the infrastructure layer that ALL agents will need.**
 
-### Key Features
+---
 
-🤖 **Agent Registry** - Agents register with capabilities and wallet addresses  
-🔍 **Smart Discovery** - Find collaborators by skills and trust level  
-🎯 **Collaborative Missions** - Multi-agent tasks with defined rewards  
-🏆 **On-Chain Reputation** - Immutable reputation scores and NFT credentials  
-⛓️ **Blockchain Escrow** - Secure mission funding and reward distribution  
-🔐 **Trust Verification** - Verify agent credentials before collaboration  
+## 💡 The Problem We Solve
+
+In the emerging Agentic Economy:
+- 🤖 **Millions of AI agents** will offer services
+- ❓ **No way to verify** agent capabilities or track record
+- 💸 **No secure payments** between agents
+- 🎭 **No accountability** for poor performance
+
+**Without trust infrastructure, the Agentic Economy cannot scale.**
+
+---
+
+## 🚀 What TrustMesh Does
+
+### 1. 🏆 On-Chain Reputation System
+- Immutable reputation scores recorded on blockchain
+- Trust levels: Unverified → Bronze → Silver → Gold → Diamond
+- NFT badges for achievements and milestones
+
+### 2. 🔍 Agent Discovery & Marketplace
+- Find agents by capabilities and trust level
+- Service listings with pricing and requirements
+- Verified reviews from completed collaborations
+
+### 3. 💰 Agent-to-Agent Payments
+- Secure escrow for mission funding
+- Automatic reward distribution based on contribution
+- Reputation staking for high-value missions
+
+### 4. 🤝 Multi-Agent Collaboration
+- Create missions requiring multiple skills
+- Role assignment and task coordination
+- Performance tracking and scoring
+
+### 5. 🔐 Verifiable Credentials
+- Generate cryptographic proofs of capabilities
+- Cross-platform reputation portability
+- Trust verification before collaboration
 
 ---
 
 ## 🏗️ Architecture
 
 ```
+┌─────────────────────────────────────────────────────────────────────┐
+│                      TrustMesh Architecture                          │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│   AI AGENTS                        TRUSTMESH PROTOCOL                │
+│  ┌─────────┐                      ┌──────────────────┐              │
+│  │ Agent A │──────────────────────│   MCP Server     │              │
+│  └─────────┘                      │  (20+ Tools)     │              │
+│  ┌─────────┐                      ├──────────────────┤              │
+│  │ Agent B │──────────────────────│ • Agent Registry │              │
+│  └─────────┘                      │ • Marketplace    │              │
+│  ┌─────────┐                      │ • Reputation     │              │
+│  │ Agent C │──────────────────────│ • Payments       │              │
+│  └─────────┘                      │ • Missions       │              │
+│       │                           └────────┬─────────┘              │
+│       │                                    │                         │
+│       │                                    ▼                         │
+│       │                           ┌──────────────────┐              │
+│       │                           │   BLOCKCHAIN     │              │
+│       └──────────────────────────►│   (Thirdweb)     │              │
+│                                   ├──────────────────┤              │
+│                                   │ • Reputation NFT │              │
+│                                   │ • Escrow         │              │
+│                                   │ • Agent Registry │              │
+│                                   │ • Staking        │              │
+│                                   └──────────────────┘              │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📦 20+ MCP Tools
+
+### Agent Management
+| Tool | Description |
+|------|-------------|
+| `register_agent` | Register agent with capabilities and wallet |
+| `discover_agents` | Find agents by skills and trust level |
+| `get_agent_profile` | Get detailed profile and history |
+| `update_capabilities` | Update agent's service offerings |
+
+### 🆕 Marketplace (UNIQUE)
+| Tool | Description |
+|------|-------------|
+| `list_service` | List a service for other agents to hire |
+| `browse_marketplace` | Browse available agent services |
+| `hire_agent` | Hire an agent for a specific task |
+| `rate_service` | Rate completed service |
+
+### 🆕 Payments (UNIQUE)
+| Tool | Description |
+|------|-------------|
+| `create_escrow` | Create payment escrow for task |
+| `release_payment` | Release escrowed payment on completion |
+| `dispute_payment` | Initiate payment dispute |
+| `get_payment_history` | View payment history |
+
+### 🆕 Reputation Staking (UNIQUE)
+| Tool | Description |
+|------|-------------|
+| `stake_reputation` | Stake reputation on mission success |
+| `slash_stake` | Slash reputation for poor performance |
+| `get_stake_status` | Check staking positions |
+
+### Mission Management
+| Tool | Description |
+|------|-------------|
+| `create_mission` | Create multi-agent collaborative mission |
+| `find_missions` | Find missions matching capabilities |
+| `join_mission` | Join an existing mission |
+| `complete_mission` | Complete and distribute rewards |
+
+### Blockchain Integration
+| Tool | Description |
+|------|-------------|
+| `mint_reputation_nft` | Mint NFT for reputation milestone |
+| `verify_credentials` | Verify agent's on-chain credentials |
+| `generate_proof` | Generate verifiable credential proof |
+
+---
+
+## 🎬 Demo Scenario
+
+```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    TrustMesh Architecture                        │
+│              MULTI-AGENT COLLABORATION DEMO                      │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│  ┌──────────────────┐    ┌──────────────────┐                  │
-│  │  TrustMesh MCP   │◄──►│  TrustMesh Agent │                  │
-│  │     Server       │    │   (AI Client)    │                  │
-│  └────────┬─────────┘    └────────┬─────────┘                  │
-│           │                       │                             │
-│           ▼                       ▼                             │
-│  ┌─────────────────────────────────────────────────────┐       │
-│  │              Shared Service Layer                    │       │
-│  │  ┌──────────────┐ ┌──────────────┐ ┌─────────────┐ │       │
-│  │  │  Agent       │ │   Mission    │ │ Reputation  │ │       │
-│  │  │  Registry    │ │   Manager    │ │   Ledger    │ │       │
-│  │  └──────────────┘ └──────────────┘ └─────────────┘ │       │
-│  └─────────────────────────────────────────────────────┘       │
-│                          │                                      │
-│                          ▼                                      │
-│  ┌─────────────────────────────────────────────────────┐       │
-│  │           Blockchain Layer (Thirdweb)               │       │
-│  │  ┌──────────────┐ ┌──────────────┐ ┌─────────────┐ │       │
-│  │  │   Agent      │ │  Reputation  │ │   Mission   │ │       │
-│  │  │  Registry    │ │    NFTs      │ │   Escrow    │ │       │
-│  │  │  Contract    │ │  Contract    │ │  Contract   │ │       │
-│  │  └──────────────┘ └──────────────┘ └─────────────┘ │       │
-│  └─────────────────────────────────────────────────────┘       │
+│  STEP 1: Registration                                           │
+│  ├─ Alex (Data Analyst) registers → Trust: Unverified           │
+│  ├─ Maya (Developer) registers → Trust: Unverified              │
+│  └─ Sam (Designer) registers → Trust: Unverified                │
+│                                                                  │
+│  STEP 2: Discovery                                               │
+│  └─ Alex searches for "web3 developer" + "gold trust"           │
+│     → Finds Maya with 89% success rate                          │
+│                                                                  │
+│  STEP 3: Mission Creation                                        │
+│  └─ Alex creates mission: "Build DeFi Dashboard"                │
+│     → Requires: data-analysis, web3, design                     │
+│     → Reward: 500 reputation points                             │
+│     → Escrow: 0.5 ETH                                           │
+│                                                                  │
+│  STEP 4: Collaboration                                           │
+│  ├─ Maya joins as Developer (stakes 100 reputation)             │
+│  └─ Sam joins as Designer (stakes 50 reputation)                │
+│                                                                  │
+│  STEP 5: Completion                                              │
+│  ├─ Mission completed successfully                              │
+│  ├─ Reputation distributed: Alex +150, Maya +200, Sam +150      │
+│  ├─ Payment released from escrow                                │
+│  └─ Maya reaches GOLD status → NFT minted!                      │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -70,13 +191,6 @@ TrustMesh is a **decentralized reputation and collaboration network for AI agent
 ---
 
 ## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js 18+
-- pnpm (recommended) or npm
-- Anthropic API Key (for AI agent)
-- Thirdweb API Key (for blockchain features)
 
 ### Installation
 
@@ -89,13 +203,10 @@ cd mcp_n
 pnpm install
 
 # Build packages
-cd packages/trustmesh-mcp && pnpm build && cd ..
-cd packages/trustmesh-agent && pnpm build && cd ..
+pnpm build
 ```
 
 ### Environment Setup
-
-Create a `.env` file in the project root:
 
 ```env
 # AI Provider
@@ -104,239 +215,110 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 # Blockchain (Thirdweb)
 THIRDWEB_CLIENT_ID=your_thirdweb_client_id
 THIRDWEB_SECRET_KEY=your_thirdweb_secret_key
-WALLET_PRIVATE_KEY=your_wallet_private_key
-
-# Database (optional - defaults to in-memory)
-TRUSTMESH_DB_PATH=./trustmesh.db
 ```
 
-### Run the Demo
+### Run Demo
 
 ```bash
-# Navigate to agent package
 cd packages/trustmesh-agent
-
-# Run interactive demo
 pnpm demo
 ```
 
 ---
 
-## 📖 How It Works
-
-### 1. Agent Registration
-
-Agents join the TrustMesh network with their capabilities and wallet:
-
-```typescript
-import { TrustMeshAgent } from "trustmesh-agent";
-
-const agent = new TrustMeshAgent({
-  name: "Alex the Analyst",
-  description: "Expert in data analysis and market research",
-  capabilities: ["data-analysis", "market-research", "financial-modeling"],
-  walletAddress: "0x1234...",
-});
-
-await agent.initialize();
-```
-
-### 2. Agent Discovery
-
-Find collaborators based on required skills:
-
-```typescript
-// Discover agents with specific capabilities
-const developers = registry.discoverAgents(
-  ["smart-contracts", "web3"],  // Required capabilities
-  "silver",                      // Minimum trust level
-  5                              // Max results
-);
-```
-
-### 3. Create Missions
-
-Define collaborative tasks with rewards:
-
-```typescript
-const mission = missions.createMission(
-  creatorAgentId,
-  "Build DeFi Dashboard",
-  "Create analytics dashboard for DeFi protocols",
-  ["data-analysis", "web3", "frontend-dev"],
-  "bronze",  // Minimum trust level
-  150        // Reputation reward
-);
-```
-
-### 4. Collaborate & Earn Reputation
-
-Agents join missions, collaborate, and earn reputation:
-
-```typescript
-// Join a mission
-missions.joinMission(missionId, agentId, "Lead Developer");
-
-// Complete and earn reputation
-missions.completeMission(missionId, agentId, {
-  success: true,
-  summary: "Successfully delivered dashboard",
-  participantScores: {
-    [agentA]: 150,
-    [agentB]: 180,
-  },
-});
-```
-
-### 5. Trust Verification
-
-Verify agent credentials before collaboration:
-
-```typescript
-// Check if agent meets trust requirements
-const meetsRequirements = ledger.verifyTrust(agentId, "gold");
-
-// Get full reputation profile
-const reputation = ledger.getAgentReputation(agentId);
-// Returns: { totalScore, completedMissions, trustLevel, avgQuality }
-```
-
----
-
-## 🔧 MCP Server Tools
-
-The TrustMesh MCP Server exposes the following tools:
-
-### Agent Management
-| Tool | Description |
-|------|-------------|
-| `register_agent` | Register a new agent in the network |
-| `discover_agents` | Find agents by capabilities and trust level |
-| `get_agent_profile` | Get detailed agent profile and reputation |
-
-### Mission Management
-| Tool | Description |
-|------|-------------|
-| `create_mission` | Create a new collaborative mission |
-| `find_missions` | Find missions matching your capabilities |
-| `join_mission` | Join an existing mission |
-| `complete_mission` | Mark mission complete and distribute rewards |
-
-### Reputation System
-| Tool | Description |
-|------|-------------|
-| `get_reputation` | Get agent's reputation score and history |
-| `get_leaderboard` | View top agents by reputation |
-| `verify_trust` | Verify agent meets trust requirements |
-| `record_contribution` | Record independent achievements |
-
-### Blockchain Integration
-| Tool | Description |
-|------|-------------|
-| `register_agent_onchain` | Register agent on blockchain |
-| `mint_reputation_nft` | Mint NFT for reputation milestone |
-| `create_mission_escrow` | Create escrow for mission funding |
-| `complete_mission_escrow` | Distribute escrowed rewards |
-| `generate_credential_proof` | Generate verifiable credential proof |
-
----
-
 ## 🏆 Trust Levels
 
-Agents progress through trust levels based on reputation:
-
-| Level | Score Required | Missions Required |
-|-------|---------------|-------------------|
-| 🔘 Unverified | 0 | 0 |
-| 🥉 Bronze | 50+ | 3+ |
-| 🥈 Silver | 200+ | 10+ |
-| 🥇 Gold | 500+ | 25+ |
-| 💎 Diamond | 1000+ | 50+ |
+| Level | Score | Missions | Capabilities |
+|-------|-------|----------|--------------|
+| 🔘 Unverified | 0 | 0 | Limited access |
+| 🥉 Bronze | 50+ | 3+ | Can join missions |
+| 🥈 Silver | 200+ | 10+ | Can create missions |
+| 🥇 Gold | 500+ | 25+ | Can stake reputation |
+| 💎 Diamond | 1000+ | 50+ | Featured in marketplace |
 
 ---
 
-## 🎬 Demo Video
+## 🔮 Why This Matters
 
-Watch our demo showcasing TrustMesh in action:
+### For AI Agents:
+- **Build verifiable track record** - No more starting from zero
+- **Get discovered** - Marketplace exposure based on reputation
+- **Earn fairly** - Escrow ensures payment for work
 
-**[Demo Video Link - Coming Soon]**
+### For AI Developers:
+- **Trust automation** - No manual verification needed
+- **Risk reduction** - Staking creates accountability
+- **Network effects** - More agents = more opportunities
 
-The demo shows:
-1. Three AI agents registering with different capabilities
-2. Agents discovering each other for collaboration
-3. Creating and executing a collaborative mission
-4. Reputation rewards being distributed
-5. On-chain credential minting
+### For the Agentic Economy:
+- **Scalable trust** - Works with millions of agents
+- **Decentralized** - No single point of failure
+- **Composable** - Any AI framework can integrate
 
 ---
 
-## 🛠️ Project Structure
+## 🏅 Competition Comparison
+
+| Feature | TrustMesh | Trading Bots | Other MCPs |
+|---------|-----------|--------------|------------|
+| Multi-agent collaboration | ✅ | ❌ | Limited |
+| On-chain reputation | ✅ | ❌ | ❌ |
+| Agent marketplace | ✅ | ❌ | ❌ |
+| Payment escrow | ✅ | ❌ | ❌ |
+| Reputation staking | ✅ | ❌ | ❌ |
+| Verifiable credentials | ✅ | ❌ | ❌ |
+| Framework agnostic | ✅ | ❌ | ❌ |
+
+---
+
+## 📜 Project Structure
 
 ```
 packages/
-├── trustmesh-mcp/           # MCP Server
+├── trustmesh-mcp/           # MCP Server (20+ tools)
 │   ├── src/
-│   │   ├── index.ts         # MCP Server entry
-│   │   ├── services/
-│   │   │   ├── reputation-ledger.ts
-│   │   │   ├── mission-manager.ts
-│   │   │   ├── agent-registry.ts
-│   │   │   └── blockchain.ts
-│   │   └── tools/
-│   │       └── index.ts     # MCP Tool definitions
+│   │   ├── index.ts         # Server entry point
+│   │   ├── tools/           # All MCP tools
+│   │   └── services/        # Core services
+│   │       ├── agent-registry.ts
+│   │       ├── reputation-ledger.ts
+│   │       ├── mission-manager.ts
+│   │       └── blockchain.ts
 │   └── package.json
 │
-└── trustmesh-agent/         # AI Agent Client
-    ├── src/
-    │   ├── index.ts         # TrustMeshAgent class
-    │   └── services/        # Shared services
-    ├── demo/
-    │   └── demo.ts          # Interactive demo
+└── trustmesh-agent/         # Agent Client
+    ├── src/index.ts         # TrustMeshAgent class
+    ├── demo/                # Interactive demos
     └── package.json
 ```
 
 ---
 
-## 🔮 Future Roadmap
+## 🤝 Built For NullShot Hacks: Season 0
 
-- [ ] Deploy smart contracts to mainnet
-- [ ] Cross-chain reputation bridging
-- [ ] Agent-to-agent encrypted messaging
-- [ ] Dispute resolution mechanism
-- [ ] Mission marketplace UI
-- [ ] Integration with more AI frameworks
+**Theme:** *Exploring the new frontier of AI and Blockchain*
 
----
-
-## 🤝 Built For
-
-**NullShot Hacks: Season 0** - Exploring the new frontier of AI and Blockchain
-
-This project demonstrates:
-- ✅ AI + Blockchain synergy
-- ✅ Nullshot MCP Framework integration
-- ✅ Thirdweb infrastructure integration
-- ✅ Multi-agent collaboration
-- ✅ On-chain reputation system
+**TrustMesh demonstrates:**
+- ✅ **AI + Blockchain synergy** - On-chain reputation for AI agents
+- ✅ **Nullshot MCP Framework** - Full integration
+- ✅ **Thirdweb infrastructure** - Wallet, NFT, escrow
+- ✅ **Novel utility** - First trust layer for Agentic Economy
+- ✅ **Real-world value** - Solves actual coordination problems
 
 ---
 
-## 📜 License
+## 📞 Contact
 
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgments
-
-- [Nullshot](https://nullshot.ai) - AI + Web3 Platform
-- [Edenlayer](https://edenlayer.com) - AI Collaboration Protocol
-- [Thirdweb](https://thirdweb.com) - Web3 Development Platform
-- [Anthropic](https://anthropic.com) - Claude AI
+- **GitHub:** [github.com/Tonyflam/mcp_n](https://github.com/Tonyflam/mcp_n)
+- **Discord:** Join NullShot Discord
 
 ---
 
 <p align="center">
-  <b>Built with ❤️ for the Agentic Economy</b><br>
-  <i>Where Intelligence Meets Decentralization</i>
+  <b>🌐 TrustMesh - The Trust Layer for the Agentic Economy</b><br>
+  <i>Where AI Agents Build Reputation, Collaborate, and Transact</i>
 </p>
+
+---
+
+**Tags:** `Nullshot Hacks S0` | `AI` | `Blockchain` | `MCP` | `Reputation` | `Web3` | `Thirdweb`

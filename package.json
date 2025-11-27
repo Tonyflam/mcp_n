@@ -1,0 +1,34 @@
+{
+  "name": "trustmesh",
+  "version": "1.0.0",
+  "description": "TrustMesh: Decentralized AI Agent Reputation & Collaboration Network - NullShot Hacks S0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "dev:mcp": "pnpm --filter trustmesh-mcp dev",
+    "dev:agent": "pnpm --filter trustmesh-agent dev",
+    "build": "pnpm run --recursive build",
+    "test": "pnpm run --recursive test",
+    "demo": "pnpm --filter trustmesh-agent run demo"
+  },
+  "keywords": [
+    "mcp",
+    "ai-agent",
+    "blockchain",
+    "web3",
+    "nullshot",
+    "thirdweb",
+    "reputation",
+    "decentralized",
+    "agentic-economy"
+  ],
+  "author": "TrustMesh Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
